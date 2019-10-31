@@ -15,5 +15,5 @@ func _input(event):
    var ball = new_ball.instance()
    ball.position = position - Vector2(0, 32)
    ball.name = "Ball"
-   ball.linear_velocity = Vector2(200, -200)
+   ball.linear_velocity = Vector2(600, -200)
    get_parent().add_child(ball)
